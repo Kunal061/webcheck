@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'pop' }
+    agent { label 'version' }
     
     environment {
         PORT = "1000"
